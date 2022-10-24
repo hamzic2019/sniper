@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Josefin+Slab:wght@100;300&display=swap');
+
+/* 
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Josefin Slab', serif;
+**/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+body {
+    background-image: url(./assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0% 15%;
+    height: 100vh;
+    background-color: red;
+    cursor: crosshair;
+}
+
+body::after {
+    transform: scaleY(56);
+}
+
+.gun {
+    height: 100%;
+    position: absolute;
+    top:0px;
+    left:500px
+}
+
+.meta {
+    position: absolute;
+    top: 65%;
+    left:45%;
+}
+
+.municija {
+    position:absolute;
+    right:1%;
+    top:1%;
+    width: 20%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.401);
+    color:white;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 3;
+}
+
+h1 {
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.ammunition {
+    height: 80px;
+}
+
+.exit-btn {
+    position:absolute;
+    left:1%;
+    top:1%;
+    cursor: pointer;
+    z-index: 10;
+    height: 50px;
+}
+
+.optika {
+    background-image: url(./assets/gun.png) ;
+    z-index: 1;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -500% 0%;
+}
+
+.aimbabo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aimaga {
+    width: 85%;
+    visibility: hidden;
+    z-index: 2;
+}

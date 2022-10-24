@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Josefin+Slab:wght@100;300&display=swap');
+
+/* 
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Josefin Slab', serif;
+**/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    background-image: url(./assets/intro-background-2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 1% 0%;
+}
+
+h1 {
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 145px;
+    color:white;
+    text-align: center;
+    margin-top: 150px;
+}
+
+p {
+    font-family: 'Josefin Slab', serif;
+    font-size: 25px;
+    color:white;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 800;
+}
+
+.btn-wrapper {
+    /*background-color: red; */
+    text-align: center;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: royalblue;
+    color:white;
+    font-size: 45px;
+    padding: 20px 35px;
+    text-decoration: none;
+    font-family: 'Fuzzy Bubbles', cursive;
+    border-radius: 10px;
+
+    transition:background-color 1s  ease-in-out,  font-size 1s ease-in-out;
+}
+
+.btn:hover {
+    background-color: rgb(92, 123, 215);
+}
+
+.btn:active {
+    font-size:0px;
+} 
